@@ -150,19 +150,3 @@ prosté vytažení textu stránky je zahodí. Někteří tipující ale označuj
 kategorie **jen** emoji (🚺/🚹 pro pohlaví, 🌈 pro duhový dres mistra světa).
 Bez emoji se takový tip přiřadí ke špatnému závodu. Při čtení DOM je proto
 potřeba brát v potaz atribut `alt` u obrázků.
-
-## Zvláštní případy v datech
-
-- **`Tipujici_28` má jen 9 tipů místo 12.** V jeho zprávě je „ITT" bez
-  rozlišení pohlaví a pak „Elite Ž" / „Elite M". Podle jmen jde
-  o mužskou časovku; ženskou netipoval.
-- Do kanálu byl v témže období vložen i tip na jiný závod (Vuelta) —
-  do této soutěže nepatří a v datech není.
-- Několik tipů obsahuje závodníky, kteří v dané disciplíně nestartovali.
-  Ponecháno beze změny; případné penalizace jsou na pořadateli soutěže.
-
-## Stav
-
-**MS 2026 Kigali** — kompletní tipy od 28 účastníků, sběr uzavřen před
-startem závodů. Z výsledků je zatím k dispozici časovka žen; zbývající
-tři závody se doplní po odjetí.
