@@ -1,0 +1,26 @@
+# Viceslovna prijmeni a varianty zapisu, ktere maji byt povazovany
+# za stejneho zavodnika.
+#
+# Format: vzor;kanonicky_tvar
+#   vzor           - text hledany ve jmene (malymi pismeny, bez diakritiky)
+#   kanonicky_tvar - na co se ma prevest
+#
+# Skript porovnava zavodniky podle prijmeni, malymi pismeny a bez
+# diakritiky. Jednoslovna prijmeni (Evenepoel, Ganna, Reusser) tedy
+# funguji sama od sebe a do tohoto souboru nepatri.
+#
+# Sem patri dva pripady:
+#   1. viceslovna prijmeni, kde by se vzal jen prvni kus
+#   2. varianty a preklepy, ktere se lisi vic nez diakritikou
+#
+# Radek zacinajici # je komentar. Soubor je nepovinny.
+
+# vzor;kanonicky_tvar
+del tor;del toro
+le court;le court
+longo borghini;longo borghini
+borghiny;longo borghini
+van der poel;van der poel
+mvdp;van der poel
+van aert;van aert
+wva;van aert
