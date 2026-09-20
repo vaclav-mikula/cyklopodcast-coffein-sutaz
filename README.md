@@ -5,8 +5,7 @@ pořádaných ve spolupráci s Coffein. Tipuje se podium vybraných závodů —
 mistrovství světa, Grand Tour, jarní klasiky.
 
 Repozitář obsahuje strojově čitelný přepis tipů, vyhodnocovací skript
-a výsledné pořadí. Formát i skript jsou obecné, nezávislé na konkrétní
-akci; aktuálně obsahují data z **mistrovství světa 2026 v Kigali**.
+a výsledné pořadí. Formát i skript jsou obecné, nezávislé na konkrétní akci.
 
 ## Bodování
 
@@ -104,7 +103,7 @@ a zapíše `vyhodnoceni_souteze.csv`.
 Kategorie nejsou ve skriptu pevně dané — přečte si je z dat. Stačí používat
 stejná označení v `tipy.csv` i `skutecne_vysledky.csv`.
 
-Pro mistrovství světa 2026:
+Pro šampionát se čtyřmi závody se hodí třeba:
 
 | Kód | Závod |
 |---|---|
