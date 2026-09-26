@@ -22,12 +22,12 @@ CTENI_TIPU.md       jak číst tipy z Discordu
 
 **Stav dat:**
 
-| Soutěž | Tipy | Výsledky |
-|---|---|---|
-| MS 2026 | 28 tipujících | obě časovky, hromadné závody se teprve pojedou |
-| Vuelta 2026 | 52 tipujících | zatím nevyplněny |
-| Giro 2026 | 29 tipujících | zatím nevyplněny |
-| Tour 2026 | zatím nepřepsáno | — |
+| Soutěž | Tipy | Výsledky | Vyhodnoceno |
+|---|---|---|---|
+| MS 2026 | 28 tipujících | obě časovky | průběžné pořadí |
+| Giro 2026 | 29 tipujících | kompletní | ano |
+| Vuelta 2026 | 52 tipujících | chybí | ne |
+| Tour 2026 | zatím nepřepsáno | kompletní | ne |
 
 Jarní klasiky 2026 (série devíti závodů) jsou zmapované, ale zatím
 nepřevedené do strojového formátu.
@@ -41,6 +41,13 @@ výkon v čase. Převodní tabulka na skutečné přezdívky se nezveřejňuje.
 
 Jména závodníků uvedena jsou; jde o veřejně známé sportovce a bez nich by
 data nedávala smysl.
+
+> **Pro přispěvatele:** tenhle repozitář je *výstup* anonymizace, ne
+> pracovní kopie. Tipy se přepisují lokálně se skutečnými přezdívkami
+> a teprve pak se vygeneruje veřejná verze. Převodní tabulka
+> přezdívka → identifikátor zůstává mimo repozitář. Když do soutěže
+> přibude tipující, celé číslování se přegeneruje, aby zůstalo
+> abecední a konzistentní napříč soutěžemi.
 
 ## Bodování
 
@@ -104,9 +111,20 @@ datum;cas;tipujici;kategorie;poradi;tip_raw;tip_kanonicky
 
 ### `skutecne_vysledky.csv`
 
-Skutečné výsledky. Vyplňuje se ručně, stačí příjmení závodníka.
-Nevyplněné kategorie se ignorují, takže soubor slouží i pro průběžné
-pořadí v průběhu akce.
+Skutečné výsledky. Vyplňuje se ručně, stačí příjmení závodníka —
+diakritika ani křestní jméno nevadí, párování si s tím poradí.
+
+```
+kategorie;poradi;jezdec
+GC;1;Pogacar
+GC;2;Gall
+GC;3;
+Vrchar;1;Carapaz
+```
+
+Nevyplněné řádky se ignorují, takže soubor slouží i pro **průběžné
+pořadí** — po každé etapě nebo závodu stačí doplnit, co už se ví,
+a spustit vyhodnocení znovu.
 
 ### `vyhodnoceni_souteze.csv`
 
@@ -139,6 +157,54 @@ kategorií, párování jmen včetně falešných shod, dělené pořadí a prů
 vyhodnocení nedokončené soutěže. **Spouštět po každé změně `aliasy.csv`
 nebo `vyhodnoceni.py`** — nejčastější chyba je příliš krátký alias, který
 začne chytat cizí jména.
+
+## Jak přidat novou soutěž
+
+1. **Založ složku** `souteze/<nazev>/` (např. `tour-2027`).
+
+2. **Zjisti, co se tipuje.** Projdi tipy v Discordu a sepiš kategorie.
+   Nespoléhej na to, že jsou stejné jako minule — Giro nemá bojovníka
+   ani horské prémie, Tour je má, MS má místo dresů čtyři závody.
+   Nápověda k názvosloví je v [CTENI_TIPU.md](CTENI_TIPU.md).
+
+3. **Zjisti bodování.** Tohle z dat vyčíst nejde — pořadatel ho vyhlašuje
+   v podcastu, do Discordu ho nepíše. **Zeptej se.** Dokud ho nevíš,
+   napiš do sloupce `zdroj` hodnotu `NUTNO OVERIT`, ať je vidět, že jde
+   o odhad.
+
+4. **Vytvoř `kategorie.csv`:**
+
+   ```
+   kategorie;typ;body_1;body_2;body_3;body_jinde;zdroj;popis
+   GC;podium;50;30;20;10;zadal poradatel;Celkové pořadí
+   Vrchar;jeden;30;;;;zadal poradatel;Puntíkovaný dres
+   ```
+
+5. **Přepiš tipy do `tipy.csv`.** U každého tipu vyplň `tip_raw`
+   (doslova, jak to napsal) i `tip_kanonicky` („Příjmení Jméno").
+   Nové přezdívky a překlepy přidej do `aliasy.csv`.
+
+6. **Vytvoř prázdný `skutecne_vysledky.csv`** s řádky pro všechny
+   kategorie a pozice.
+
+7. **Spusť testy a vyhodnocení:**
+
+   ```bash
+   python test_vyhodnoceni.py
+   python vyhodnoceni.py souteze/tour-2027
+   ```
+
+### Na co si dát pozor při přepisu
+
+- **Tip s poznámkou „(upraveno)" se nepočítá.** Pořadatel vyhlásil
+  striktní zákaz editace — takový tip do `tipy.csv` vůbec nepiš.
+- **Chybějící kategorie není chyba.** Když někdo něco nevyplnil, prostě
+  za ni nedostane body. Nedopisuj, co si myslíš, že chtěl.
+- **Nejasný tip nehádej.** Když nevíš, do které kategorie tip patří nebo
+  koho znamená přezdívka, **zeptej se a uveď od koho a kdy tip je**.
+  Vymyšlené přiřazení vypadá v datech věrohodně a chyba se projeví až
+  v bodech.
+- **Tip po uzávěrce** platí, pokud ho pořadatel výslovně pustil do hry.
 
 ## Párování jmen
 

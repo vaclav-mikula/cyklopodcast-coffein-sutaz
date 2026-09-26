@@ -1,0 +1,6 @@
+﻿klic;hodnota;zdroj;poznamka
+nazev;Tour de France 2026;odvozeno z dat;Zobrazovany nazev souteze
+obdobi_tipu;2026-07-02/2026-07-04;odvozeno z dat;Soutez vyhlasena 1. 7. 2026
+deleny_zaver;ano;predpoklad;Prevzato z jinych soutezi
+nulovi_v_tabulce;ano;predpoklad;Prevzato z jinych soutezi
+POZOR;cast vysledku je vymyslena;uzivatel 26.9.2026;Bojovnik, Tourmalet a Galibier NEJSOU skutecne vysledky - uzivatel je nechal vymyslet pro otestovani vypoctu. GC, 30+, dresy a tym jsou skutecne.

@@ -1,7 +1,16 @@
 # Jak číst tipy z Discordu
 
-Poznámky ze čtení kanálu `#💥-sutaz-s-coffeein💥`. Sesbíráno z MS 2026,
-Vuelty 2026 a Tour 2026. Slouží jako návod pro přepis dalších soutěží.
+Praktické poznámky ze čtení kanálu `#💥-sutaz-s-coffeein💥` — co které
+emoji znamená, jak se tytéž kategorie jmenují u různých lidí a kde jsou
+pasti. Sesbíráno z jarních klasik, Gira, Tour, Vuelty a MS 2026.
+
+Tohle je doplněk k [README](README.md), kde je popsaný formát dat
+a postup, jak přidat novou soutěž. Sem se dívej, když máš před sebou
+konkrétní zprávu z Discordu a potřebuješ ji rozluštit.
+
+**Tipy jsou vždy jen v kanálu `#💥-sutaz-s-coffeein💥`.** Kanály
+`giro-d-italia`, `tour-de-france`, `vuelta-a-espana` a `tipovacka`
+obsahují jen diskusi o závodech.
 
 ## Postup čtení
 
