@@ -128,6 +128,18 @@ python vyhodnoceni.py souteze/vuelta-2026
 Bez argumentu pracuje v kořenové složce. Vypíše pořadí na konzoli a zapíše
 `vyhodnoceni_souteze.csv` do složky soutěže.
 
+### Testy
+
+```bash
+python test_vyhodnoceni.py
+```
+
+Ověřují na vymyšlených datech, že bodování počítá správně: oba typy
+kategorií, párování jmen včetně falešných shod, dělené pořadí a průběžné
+vyhodnocení nedokončené soutěže. **Spouštět po každé změně `aliasy.csv`
+nebo `vyhodnoceni.py`** — nejčastější chyba je příliš krátký alias, který
+začne chytat cizí jména.
+
 ## Párování jmen
 
 Nejpracnější část celé úlohy. Tipy přicházejí v naprosto volné formě a je

@@ -137,13 +137,17 @@ Aliasy jsou v `aliasy.csv`. Zásady:
   `O'Connor`, `Longo Borghini`, `van der Poel`, `van Aert`
 
 Pozor při přidávání aliasu: vzor se hledá i **uvnitř** jména, takže krátký
-vzor může chytit něco jiného. Po každé změně otestovat:
+vzor může chytit něco jiného. Po každé změně `aliasy.csv` nebo
+`vyhodnoceni.py` spustit testy:
 
-```
-python -c "import sys;sys.path.insert(0,'.');import vyhodnoceni as v;print(v.klic('Torres'))"
+```bash
+python test_vyhodnoceni.py
 ```
 
-`Torres` musí dát `torres`, ne `del toro`.
+Ověřují bodování obou typů kategorií, párování jmen (přezdívky, diakritika,
+falešné shody), dělené pořadí a průběžné vyhodnocení. Ověřeno, že testy
+skutečně selžou — zkušebně přidaný alias `tor` shodil párování jmen,
+protože začal chytat i `Torres`.
 
 ### Zvláštní případy
 
