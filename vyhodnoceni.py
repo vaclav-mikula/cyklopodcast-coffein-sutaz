@@ -3,35 +3,53 @@ r"""
 Vyhodnoceni tipovaci souteze - obecne, pro libovolny zavod nebo serii.
 
 Pouziti:
-    python vyhodnoceni.py
+    python vyhodnoceni.py                        # data v teto slozce
+    python vyhodnoceni.py souteze/vuelta-2026    # data v podslozce
 
-Cte tipy.csv a skutecne_vysledky.csv (oba ve stejne slozce), vypise
-poradi tipujicich a ulozi ho do vyhodnoceni_souteze.csv.
+Cte tipy.csv a skutecne_vysledky.csv, vypise poradi tipujicich a ulozi
+ho do vyhodnoceni_souteze.csv.
 
-Kategorie nejsou nijak pevne dane - skript si je precte z dat. Muze jit
-o ctyri zavody mistrovstvi sveta, etapy Grand Tour, jarni klasiky nebo
-cokoliv jineho; staci pouzivat stejne nazvy kategorii v obou souborech.
+Kategorie nejsou nijak pevne dane. Kdyz ve slozce lezi kategorie.csv,
+precte si z nej typ kategorie a bodovani:
+
+    kategorie;typ;body_1;body_2;body_3;body_jinde;zdroj;popis
+    GC;podium;50;30;20;10;...;Celkove poradi
+    Vrchar;jeden;30;;;;...;Puntikovany dres
+
+    typ podium - tipuji se 3 mista, boduje se i zavodnik na podiu na
+                 jinem miste (body_jinde)
+    typ jeden  - tipuje se jediny vitez (dres, tym), body jen za trefu
+
+Bez kategorie.csv plati vychozi podiove bodovani 50/30/20/10 podle
+konstant nize.
 
 Funguje i pro prubezne poradi: staci vyplnit jen ty kategorie, ktere uz
 probehly. Nevyplnene se ignoruji.
-
-Bodovani (viz konstanty nize):
-    50 b. - uhodnute 1. misto
-    30 b. - uhodnute 2. misto
-    20 b. - uhodnute 3. misto
-    10 b. - zavodnik je na podiu dane kategorie, ale na jinem miste
 """
 
 import csv
 import os
+import sys
 import unicodedata
 from collections import defaultdict
 
-SLOZKA = os.path.dirname(os.path.abspath(__file__))
+KOREN = os.path.dirname(os.path.abspath(__file__))
+
+# Slozku souteze lze zadat argumentem:
+#     python vyhodnoceni.py souteze/vuelta-2026
+# Bez argumentu se pracuje primo v korenove slozce.
+SLOZKA = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else KOREN
+
 SOUBOR_TIPY = os.path.join(SLOZKA, "tipy.csv")
 SOUBOR_VYSLEDKY = os.path.join(SLOZKA, "skutecne_vysledky.csv")
 SOUBOR_VYSTUP = os.path.join(SLOZKA, "vyhodnoceni_souteze.csv")
+SOUBOR_KATEGORIE = os.path.join(SLOZKA, "kategorie.csv")
+
+# Aliasy jsou spolecne pro vsechny souteze - hledaji se v korenove slozce,
+# a kdyz je ma soutez vlastni, ma prednost jeji soubor.
 SOUBOR_ALIASY = os.path.join(SLOZKA, "aliasy.csv")
+if not os.path.exists(SOUBOR_ALIASY):
+    SOUBOR_ALIASY = os.path.join(KOREN, "aliasy.csv")
 
 # Bodovani. Klic je tipovane misto, hodnota pocet bodu za presny zasah.
 # Pro podium se tipuji tri mista; pro jinou soutez staci upravit tady.
@@ -85,12 +103,51 @@ def nacti_csv(cesta):
         return list(csv.DictReader(f, delimiter=";"))
 
 
+def nacti_kategorie():
+    """
+    Nacte kategorie.csv: typ kategorie a bodovani.
+
+    Kdyz soubor chybi, pouzije se vychozi podiove bodovani pro vsechny
+    kategorie, ktere se objevi v datech (zpetna kompatibilita).
+    """
+    if not os.path.exists(SOUBOR_KATEGORIE):
+        return {}
+    kategorie = {}
+    for r in nacti_csv(SOUBOR_KATEGORIE):
+        nazev = (r.get("kategorie") or "").strip()
+        if not nazev:
+            continue
+
+        def cislo(klic_sloupce):
+            h = (r.get(klic_sloupce) or "").strip()
+            return int(h) if h.isdigit() else 0
+
+        kategorie[nazev] = {
+            "typ": (r.get("typ") or "podium").strip(),
+            "body": {"1": cislo("body_1"),
+                     "2": cislo("body_2"),
+                     "3": cislo("body_3")},
+            "body_jinde": cislo("body_jinde"),
+        }
+    return kategorie
+
+
+def pravidla_kategorie(kategorie, nazev):
+    """Vrati bodovani dane kategorie, nebo vychozi podiove."""
+    if nazev in kategorie:
+        return kategorie[nazev]
+    return {"typ": "podium",
+            "body": dict(BODY_ZA_MISTO),
+            "body_jinde": BODY_PODIUM_JINDE}
+
+
 def main():
     tipy = nacti_csv(SOUBOR_TIPY)
     vysledky_radky = nacti_csv(SOUBOR_VYSLEDKY)
+    kategorie = nacti_kategorie()
 
-    vysledky = defaultdict(dict)       # [kategorie][poradi] = klic jezdce
-    podium = defaultdict(set)          # [kategorie] = {klice jezdcu na podiu}
+    vysledky = defaultdict(dict)       # [kategorie][poradi] = klic zavodnika
+    podium = defaultdict(set)          # [kategorie] = {klice na podiu}
     for r in vysledky_radky:
         jezdec = (r.get("jezdec") or "").strip()
         if not jezdec:
@@ -113,11 +170,18 @@ def main():
         kat, por = t["kategorie"].strip(), t["poradi"].strip()
         if kat not in vysledky:
             continue
+        pravidla = pravidla_kategorie(kategorie, kat)
         tip = klic(t["tip_kanonicky"])
-        if vysledky[kat].get(por) == tip:
-            body[t["tipujici"].strip()] += BODY_ZA_MISTO.get(por, 0)
+        kdo = t["tipujici"].strip()
+
+        if pravidla["typ"] == "jeden":
+            # Jediny tip (dres, tym): body jen za presnou trefu.
+            if vysledky[kat].get("1") == tip:
+                body[kdo] += pravidla["body"]["1"]
+        elif vysledky[kat].get(por) == tip:
+            body[kdo] += pravidla["body"].get(por, 0)
         elif tip in podium[kat]:
-            body[t["tipujici"].strip()] += BODY_PODIUM_JINDE
+            body[kdo] += pravidla["body_jinde"]
 
     # Primarne podle bodu sestupne, pri shode abecedne podle prezdivky.
     serazeno = sorted(body.items(), key=lambda x: (-x[1], x[0].lower()))

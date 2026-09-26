@@ -7,20 +7,143 @@
 #
 # Skript porovnava zavodniky podle prijmeni, malymi pismeny a bez
 # diakritiky. Jednoslovna prijmeni (Evenepoel, Ganna, Reusser) tedy
-# funguji sama od sebe a do tohoto souboru nepatri.
+# funguji sama od sebe a do tohoto souboru nepatri - stejne tak
+# preklepy, ktere se lisi jen prehlaskou (Kung/Kung, Backstedt/Backstedt).
 #
-# Sem patri dva pripady:
+# Sem patri tri pripady:
 #   1. viceslovna prijmeni, kde by se vzal jen prvni kus
-#   2. varianty a preklepy, ktere se lisi vic nez diakritikou
+#   2. prezdivky a krestni jmena misto prijmeni
+#   3. preklepy, ktere se lisi vic nez diakritikou
 #
 # Radek zacinajici # je komentar. Soubor je nepovinny.
+# Sesbirano z MS 2026, Vuelty 2026 a Tour 2026.
 
-# vzor;kanonicky_tvar
+# --- viceslovna prijmeni ---
 del tor;del toro
 le court;le court
 longo borghini;longo borghini
-borghiny;longo borghini
 van der poel;van der poel
-mvdp;van der poel
 van aert;van aert
+paret-peintre;paret-peintre
+paret peintre;paret-peintre
+o'connor;o connor
+o connor;o connor
+de la cruz;de la cruz
+van gils;van gils
+
+# --- prezdivky a krestni jmena ---
+# Pogacar
+pogi;pogacar
+pogacat;pogacar
+# Evenepoel
+remco;evenepoel
+evenpoel;evenepoel
+renton evenepoel;evenepoel
+# van Aert
 wva;van aert
+wvа;van aert
+wwa;van aert
+wan aert;van aert
+wout;van aert
+# van der Poel
+mvdp;van der poel
+mvpd;van der poel
+# Del Toro
+torito;del toro
+isac dt;del toro
+toro;del toro
+# Vingegaard
+jonas;vingegaard
+vingegard;vingegaard
+vinge;vingegaard
+jvinge;vingegaard
+# Arensman
+ikeaman;arensman
+# Lipowitz
+lipo;lipowitz
+# Martinez (Lenny) - na Tour 2026 jediny Martinez v tipech
+leny martinez;martinez
+lenny martinez;martinez
+martinez lenny;martinez
+# Guillaume Martin - POZOR, jiny jezdec nez Lenny Martinez
+guillaume martin;martin
+g.martin;martin
+g. martin;martin
+# Kopecky
+lotte;kopecky
+# Vollering
+volering;vollering
+demi;vollering
+# Pedersen - pozor, existuje i Mads Pedersen i jini
+# (nechavame bez aliasu, prijmeni staci)
+
+# --- dalsi viceslovna prijmeni (z 2025 a jarnich klasik) ---
+ferrand-prevot;ferrand-prevot
+ferrand - prevot;ferrand-prevot
+ferrand prevot;ferrand-prevot
+van der breggen;van der breggen
+van der bregen;van der breggen
+fisher-black;fisher-black
+fisher black;fisher-black
+lund andersen;lund andersen
+lund andresen;lund andersen
+lund adresen;lund andersen
+van baarle;van baarle
+de lie;de lie
+del grosso;del grosso
+
+# --- dalsi prezdivky ---
+# Ganna
+pippo;ganna
+super pippo;ganna
+# Philipsen
+jasper disaster;philipsen
+jasper p;philipsen
+# Pogacar
+pogino;pogacar
+# Kubis
+kubi;kubis
+luka kubi;kubis
+
+# --- preklepy ---
+borghiny;longo borghini
+borgini;longo borghini
+kongo borghini;longo borghini
+noojien;nooijen
+newiadoma;niewiadoma
+niewadoma;niewiadoma
+niewiedoma;niewiadoma
+backsted;backstedt
+backstead;backstedt
+carrapaz;carapaz
+skjemose;skjelmose
+philipsem;philipsen
+phillipsen;philipsen
+johannnessen;johannessen
+johannesem;johannessen
+paret-paintre;paret-peintre
+pogacarl;pogacar
+pogacat;pogacar
+remcal;evenepoel
+sexais;seixas
+sexias;seixas
+cosnefroi;cosnefroy
+cosneforya;cosnefroy
+vaquelin;vauquelin
+pelizzari;pellizzari
+pelilizzari;pellizzari
+alaphilipe;alaphilippe
+alaphillipe;alaphilippe
+allaphilippe;alaphilippe
+alaphilppe;alaphilippe
+jorgensson;jorgenson
+jorgenson;jorgenson
+volering;vollering
+vollerring;vollering
+vingegard;vingegaard
+vinegegaard;vingegaard
+ruegg;ruegg
+rueegg;ruegg
+gregoire;gregoire
+romaine gregoire;gregoire
+romain gregoire;gregoire

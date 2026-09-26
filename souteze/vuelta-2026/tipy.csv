@@ -1,0 +1,570 @@
+﻿datum;cas;tipujici;kategorie;poradi;tip_raw;tip_kanonicky
+2026-08-19;12:59;Tipujici_02;GC;1;Pogi;Pogacar Tadej
+2026-08-19;12:59;Tipujici_02;GC;2;Gall;Gall Felix
+2026-08-19;12:59;Tipujici_02;GC;3;Skjelmose;Skjelmose Mattias
+2026-08-19;12:59;Tipujici_02;Vrchar;1;Pogi;Pogacar Tadej
+2026-08-19;12:59;Tipujici_02;Sprinter;1;Van Art;van Aert Wout
+2026-08-19;12:59;Tipujici_02;Mladik;1;Riccitello;Riccitello Matthew
+2026-08-19;12:59;Tipujici_02;Tym;1;UAE;UAE
+2026-08-19;12:59;Tipujici_02;30+;1;Carapaz;Carapaz Richard
+2026-08-19;12:59;Tipujici_02;30+;2;Roglic;Roglic Primoz
+2026-08-19;12:59;Tipujici_02;30+;3;Mas;Mas Enric
+2026-08-19;12:59;Tipujici_02;Penas Blancas;1;Seppi;Kuss Sepp
+2026-08-19;13:31;Tipujici_18;GC;1;Pogacar;Pogacar Tadej
+2026-08-19;13:31;Tipujici_18;GC;2;Gall;Gall Felix
+2026-08-19;13:31;Tipujici_18;GC;3;Roglic;Roglic Primoz
+2026-08-19;13:31;Tipujici_18;Vrchar;1;Paret-Peintre;Paret-Peintre Valentin
+2026-08-19;13:31;Tipujici_18;Sprinter;1;Van Aert;van Aert Wout
+2026-08-19;13:31;Tipujici_18;Mladik;1;Onley;Onley Oscar
+2026-08-19;13:31;Tipujici_18;Tym;1;UAE;UAE
+2026-08-19;13:31;Tipujici_18;30+;1;Roglic;Roglic Primoz
+2026-08-19;13:31;Tipujici_18;30+;2;Carapaz;Carapaz Richard
+2026-08-19;13:31;Tipujici_18;30+;3;Kuss;Kuss Sepp
+2026-08-19;13:31;Tipujici_18;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-19;13:47;Tipujici_13;GC;1;T. Pogacar;Pogacar Tadej
+2026-08-19;13:47;Tipujici_13;GC;2;J. Almeida;Almeida Joao
+2026-08-19;13:47;Tipujici_13;GC;3;F. Gall;Gall Felix
+2026-08-19;13:47;Tipujici_13;Vrchar;1;S. Kuss;Kuss Sepp
+2026-08-19;13:47;Tipujici_13;Sprinter;1;M. Pedersen;Pedersen Mads
+2026-08-19;13:47;Tipujici_13;Mladik;1;O. Onley;Onley Oscar
+2026-08-19;13:47;Tipujici_13;Tym;1;UAE;UAE
+2026-08-19;13:47;Tipujici_13;30+;1;R. Carapaz;Carapaz Richard
+2026-08-19;13:47;Tipujici_13;30+;2;S. Kuss;Kuss Sepp
+2026-08-19;13:47;Tipujici_13;30+;3;E. Mas;Mas Enric
+2026-08-19;13:47;Tipujici_13;Penas Blancas;1;T. Pogacar;Pogacar Tadej
+2026-08-19;16:20;Tipujici_58;GC;1;Pogacar;Pogacar Tadej
+2026-08-19;16:20;Tipujici_58;GC;2;Carapaz;Carapaz Richard
+2026-08-19;16:20;Tipujici_58;GC;3;Johannnessen;Johannessen Tobias
+2026-08-19;16:20;Tipujici_58;Vrchar;1;Hirt;Hirt Jan
+2026-08-19;16:20;Tipujici_58;Sprinter;1;Brennan;Brennan Matthew
+2026-08-19;16:20;Tipujici_58;Mladik;1;Torres;Torres Pablo
+2026-08-19;16:20;Tipujici_58;Tym;1;Bahrain;Bahrain
+2026-08-19;16:20;Tipujici_58;30+;1;Carapaz;Carapaz Richard
+2026-08-19;16:20;Tipujici_58;30+;2;Roglic;Roglic Primoz
+2026-08-19;16:20;Tipujici_58;30+;3;Muhlberger;Muhlberger Gregor
+2026-08-19;16:20;Tipujici_58;Penas Blancas;1;Rodriguez;Rodriguez Cristian
+2026-08-19;19:44;Tipujici_23;GC;1;Pogacar;Pogacar Tadej
+2026-08-19;19:44;Tipujici_23;GC;2;Kuss;Kuss Sepp
+2026-08-19;19:44;Tipujici_23;GC;3;Skjelmose;Skjelmose Mattias
+2026-08-19;19:44;Tipujici_23;Vrchar;1;Carapaz;Carapaz Richard
+2026-08-19;19:44;Tipujici_23;Sprinter;1;Van Aert;van Aert Wout
+2026-08-19;19:44;Tipujici_23;Mladik;1;Onley;Onley Oscar
+2026-08-19;19:44;Tipujici_23;Tym;1;Movistar;Movistar
+2026-08-19;19:44;Tipujici_23;30+;1;Carapaz;Carapaz Richard
+2026-08-19;19:44;Tipujici_23;30+;2;Mas;Mas Enric
+2026-08-19;19:44;Tipujici_23;30+;3;Rogla;Roglic Primoz
+2026-08-19;19:44;Tipujici_23;Penas Blancas;1;Carapaz;Carapaz Richard
+2026-08-19;19:52;Tipujici_56;GC;1;Pogacar;Pogacar Tadej
+2026-08-19;19:52;Tipujici_56;GC;2;Gall;Gall Felix
+2026-08-19;19:52;Tipujici_56;GC;3;Onley;Onley Oscar
+2026-08-19;19:52;Tipujici_56;Vrchar;1;Carapaz;Carapaz Richard
+2026-08-19;19:52;Tipujici_56;Sprinter;1;Wout van Aert;van Aert Wout
+2026-08-19;19:52;Tipujici_56;Mladik;1;Onley;Onley Oscar
+2026-08-19;19:52;Tipujici_56;Tym;1;Visma;Visma
+2026-08-19;19:52;Tipujici_56;30+;1;Roglic;Roglic Primoz
+2026-08-19;19:52;Tipujici_56;30+;2;Carapaz;Carapaz Richard
+2026-08-19;19:52;Tipujici_56;30+;3;Mas;Mas Enric
+2026-08-19;19:52;Tipujici_56;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-20;06:51;Tipujici_59;GC;1;Pog;Pogacar Tadej
+2026-08-20;06:51;Tipujici_59;GC;2;Gall;Gall Felix
+2026-08-20;06:51;Tipujici_59;GC;3;Kuss;Kuss Sepp
+2026-08-20;06:51;Tipujici_59;Vrchar;1;carapaz;Carapaz Richard
+2026-08-20;06:51;Tipujici_59;Sprinter;1;WvA;van Aert Wout
+2026-08-20;06:51;Tipujici_59;Mladik;1;riccitello;Riccitello Matthew
+2026-08-20;06:51;Tipujici_59;Tym;1;decathlon;Decathlon
+2026-08-20;06:51;Tipujici_59;30+;1;carapaz;Carapaz Richard
+2026-08-20;06:51;Tipujici_59;30+;2;roglic;Roglic Primoz
+2026-08-20;06:51;Tipujici_59;30+;3;mas;Mas Enric
+2026-08-20;06:51;Tipujici_59;Penas Blancas;1;pog;Pogacar Tadej
+2026-08-20;06:54;Tipujici_20;GC;1;Pogacar;Pogacar Tadej
+2026-08-20;06:54;Tipujici_20;GC;2;Skjelmose;Skjelmose Mattias
+2026-08-20;06:54;Tipujici_20;GC;3;Buitrago;Buitrago Santiago
+2026-08-20;06:54;Tipujici_20;Vrchar;1;Vrchar: Pogacar;Pogacar Tadej
+2026-08-20;06:54;Tipujici_20;Sprinter;1;Sprinter: Wout;van Aert Wout
+2026-08-20;06:54;Tipujici_20;Mladik;1;Bily: Omrzel;Omrzel Zak
+2026-08-20;06:54;Tipujici_20;Tym;1;Lidl;Lidl
+2026-08-20;06:54;Tipujici_20;30+;1;Double;Double
+2026-08-20;06:54;Tipujici_20;30+;2;Roglic;Roglic Primoz
+2026-08-20;06:54;Tipujici_20;30+;3;De La Cruz;De La Cruz David
+2026-08-20;06:54;Tipujici_20;Penas Blancas;1;Kavovy kopec: Pogacar;Pogacar Tadej
+2026-08-20;07:53;Tipujici_55;GC;1;Pogacar;Pogacar Tadej
+2026-08-20;07:53;Tipujici_55;GC;2;Gall;Gall Felix
+2026-08-20;07:53;Tipujici_55;GC;3;Onley;Onley Oscar
+2026-08-20;07:53;Tipujici_55;Vrchar;1;Carapaz;Carapaz Richard
+2026-08-20;07:53;Tipujici_55;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-20;07:53;Tipujici_55;Mladik;1;Onley;Onley Oscar
+2026-08-20;07:53;Tipujici_55;Tym;1;UAE;UAE
+2026-08-20;07:53;Tipujici_55;30+;1;Carapaz;Carapaz Richard
+2026-08-20;07:53;Tipujici_55;30+;2;Kuss;Kuss Sepp
+2026-08-20;07:53;Tipujici_55;30+;3;Mas;Mas Enric
+2026-08-20;07:53;Tipujici_55;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-20;08:17;Tipujici_03;GC;1;Tadej;Pogacar Tadej
+2026-08-20;08:17;Tipujici_03;GC;2;Gall;Gall Felix
+2026-08-20;08:17;Tipujici_03;GC;3;Mas;Mas Enric
+2026-08-20;08:17;Tipujici_03;Vrchar;1;Kopce: Carapaz;Carapaz Richard
+2026-08-20;08:17;Tipujici_03;Sprinter;1;Sprinter: Wout Van Aert;van Aert Wout
+2026-08-20;08:17;Tipujici_03;Mladik;1;Biely: Oscar Onley;Onley Oscar
+2026-08-20;08:17;Tipujici_03;Tym;1;RedBull;Red Bull
+2026-08-20;08:17;Tipujici_03;30+;1;Mas;Mas Enric
+2026-08-20;08:17;Tipujici_03;30+;2;Carapaz;Carapaz Richard
+2026-08-20;08:17;Tipujici_03;30+;3;Roglic;Roglic Primoz
+2026-08-20;08:17;Tipujici_03;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-20;12:27;Tipujici_35;GC;1;Pogacar;Pogacar Tadej
+2026-08-20;12:27;Tipujici_35;GC;2;Gall;Gall Felix
+2026-08-20;12:27;Tipujici_35;GC;3;Skjelmose;Skjelmose Mattias
+2026-08-20;12:27;Tipujici_35;Vrchar;1;Bodkovany: Carapaz;Carapaz Richard
+2026-08-20;12:27;Tipujici_35;Sprinter;1;Zeleny: Pedersen;Pedersen Mads
+2026-08-20;12:27;Tipujici_35;Mladik;1;Biely: Onley;Onley Oscar
+2026-08-20;12:27;Tipujici_35;Tym;1;UAE;UAE
+2026-08-20;12:27;Tipujici_35;30+;1;Mas;Mas Enric
+2026-08-20;12:27;Tipujici_35;30+;2;Kuss;Kuss Sepp
+2026-08-20;12:27;Tipujici_35;30+;3;Bilbao;Bilbao Pello
+2026-08-20;12:27;Tipujici_35;Penas Blancas;1;Carapaz;Carapaz Richard
+2026-08-20;20:08;Tipujici_50;GC;1;Pogacar;Pogacar Tadej
+2026-08-20;20:08;Tipujici_50;GC;2;Gall;Gall Felix
+2026-08-20;20:08;Tipujici_50;GC;3;Kuss;Kuss Sepp
+2026-08-20;20:08;Tipujici_50;Vrchar;1;Fortunato;Fortunato Lorenzo
+2026-08-20;20:08;Tipujici_50;Sprinter;1;Wout;van Aert Wout
+2026-08-20;20:08;Tipujici_50;Mladik;1;Onley;Onley Oscar
+2026-08-20;20:08;Tipujici_50;Tym;1;Visma;Visma
+2026-08-20;20:08;Tipujici_50;30+;1;Kuss;Kuss Sepp
+2026-08-20;20:08;Tipujici_50;30+;2;Carapaz;Carapaz Richard
+2026-08-20;20:08;Tipujici_50;30+;3;Mass;Mas Enric
+2026-08-20;20:08;Tipujici_50;Penas Blancas;1;Paret-Peintre;Paret-Peintre Valentin
+2026-08-21;00:49;Tipujici_52;GC;1;POGACAR Tadej;Pogacar Tadej
+2026-08-21;00:49;Tipujici_52;GC;2;GALL Felix;Gall Felix
+2026-08-21;00:49;Tipujici_52;GC;3;SKJELMOSE Mattias;Skjelmose Mattias
+2026-08-21;00:49;Tipujici_52;Vrchar;1;Kopce: CARAPAZ Richard;Carapaz Richard
+2026-08-21;00:49;Tipujici_52;Sprinter;1;Sprinter: PEDERSEN Mads;Pedersen Mads
+2026-08-21;00:49;Tipujici_52;Mladik;1;Biely: ONLEY Oscar;Onley Oscar
+2026-08-21;00:49;Tipujici_52;Tym;1;UAE;UAE
+2026-08-21;00:49;Tipujici_52;30+;1;ROGLIC Primoz;Roglic Primoz
+2026-08-21;00:49;Tipujici_52;30+;2;CARAPAZ Richard;Carapaz Richard
+2026-08-21;00:49;Tipujici_52;30+;3;KUSS Sepp;Kuss Sepp
+2026-08-21;00:49;Tipujici_52;Penas Blancas;1;CARAPAZ Richard;Carapaz Richard
+2026-08-21;07:45;Tipujici_27;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;07:45;Tipujici_27;GC;2;Gall;Gall Felix
+2026-08-21;07:45;Tipujici_27;GC;3;Mas;Mas Enric
+2026-08-21;07:45;Tipujici_27;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-21;07:45;Tipujici_27;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-21;07:45;Tipujici_27;Mladik;1;Onley;Onley Oscar
+2026-08-21;07:45;Tipujici_27;Tym;1;UAE;UAE
+2026-08-21;07:45;Tipujici_27;30+;1;Mas;Mas Enric
+2026-08-21;07:45;Tipujici_27;30+;2;Roglic;Roglic Primoz
+2026-08-21;07:45;Tipujici_27;30+;3;Hirt;Hirt Jan
+2026-08-21;07:45;Tipujici_27;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-21;08:47;Tipujici_30;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;08:47;Tipujici_30;GC;2;Carapaz;Carapaz Richard
+2026-08-21;08:47;Tipujici_30;GC;3;Gall;Gall Felix
+2026-08-21;08:47;Tipujici_30;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-21;08:47;Tipujici_30;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-21;08:47;Tipujici_30;Mladik;1;Onley;Onley Oscar
+2026-08-21;08:47;Tipujici_30;Tym;1;UAE;UAE
+2026-08-21;08:47;Tipujici_30;30+;1;Carapaz;Carapaz Richard
+2026-08-21;08:47;Tipujici_30;30+;2;Mas;Mas Enric
+2026-08-21;08:47;Tipujici_30;30+;3;Landa;Landa Mikel
+2026-08-21;08:47;Tipujici_30;Penas Blancas;1;Kuss;Kuss Sepp
+2026-08-21;09:30;Tipujici_44;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;09:30;Tipujici_44;GC;2;Gall;Gall Felix
+2026-08-21;09:30;Tipujici_44;GC;3;Carapaz;Carapaz Richard
+2026-08-21;09:30;Tipujici_44;Vrchar;1;Paret-Peintre;Paret-Peintre Valentin
+2026-08-21;09:30;Tipujici_44;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-21;09:30;Tipujici_44;Mladik;1;Onley;Onley Oscar
+2026-08-21;09:30;Tipujici_44;Tym;1;UAE Emirates-XRG;UAE
+2026-08-21;09:30;Tipujici_44;30+;1;Carapaz;Carapaz Richard
+2026-08-21;09:30;Tipujici_44;30+;2;Mas;Mas Enric
+2026-08-21;09:30;Tipujici_44;30+;3;Kuss;Kuss Sepp
+2026-08-21;09:30;Tipujici_44;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-21;09:37;Tipujici_25;GC;1;Pogi;Pogacar Tadej
+2026-08-21;09:37;Tipujici_25;GC;2;Gall;Gall Felix
+2026-08-21;09:37;Tipujici_25;GC;3;Skjelmose;Skjelmose Mattias
+2026-08-21;09:37;Tipujici_25;Vrchar;1;Kopce: Pello Bilbao;Bilbao Pello
+2026-08-21;09:37;Tipujici_25;Sprinter;1;Sprint: Pedersen;Pedersen Mads
+2026-08-21;09:37;Tipujici_25;Mladik;1;Baby: OOnley;Onley Oscar
+2026-08-21;09:37;Tipujici_25;Tym;1;Lidl;Lidl
+2026-08-21;09:37;Tipujici_25;30+;1;Roglic;Roglic Primoz
+2026-08-21;09:37;Tipujici_25;30+;2;Mas;Mas Enric
+2026-08-21;09:37;Tipujici_25;30+;3;Hirt;Hirt Jan
+2026-08-21;09:37;Tipujici_25;Penas Blancas;1;Pogi;Pogacar Tadej
+2026-08-21;13:10;Tipujici_06;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;13:10;Tipujici_06;GC;2;Gall;Gall Felix
+2026-08-21;13:10;Tipujici_06;GC;3;Carapaz;Carapaz Richard
+2026-08-21;13:10;Tipujici_06;Vrchar;1;Vrchar: Pogacar;Pogacar Tadej
+2026-08-21;13:10;Tipujici_06;Sprinter;1;Body: Wan Aert;van Aert Wout
+2026-08-21;13:10;Tipujici_06;Mladik;1;Biely: Onley;Onley Oscar
+2026-08-21;13:10;Tipujici_06;Tym;1;Uae;UAE
+2026-08-21;13:10;Tipujici_06;30+;1;Carapaz;Carapaz Richard
+2026-08-21;13:10;Tipujici_06;30+;2;Kuss;Kuss Sepp
+2026-08-21;13:10;Tipujici_06;30+;3;Roglic;Roglic Primoz
+2026-08-21;13:10;Tipujici_06;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-21;13:36;Tipujici_45;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;13:36;Tipujici_45;GC;2;Onley;Onley Oscar
+2026-08-21;13:36;Tipujici_45;GC;3;Skjelmose;Skjelmose Mattias
+2026-08-21;13:36;Tipujici_45;Vrchar;1;KOM: Carapaz;Carapaz Richard
+2026-08-21;13:36;Tipujici_45;Sprinter;1;Body: Van Aert;van Aert Wout
+2026-08-21;13:36;Tipujici_45;Mladik;1;Biely: Onley;Onley Oscar
+2026-08-21;13:36;Tipujici_45;Tym;1;UAE;UAE
+2026-08-21;13:36;Tipujici_45;30+;1;Carapaz;Carapaz Richard
+2026-08-21;13:36;Tipujici_45;30+;2;Landa;Landa Mikel
+2026-08-21;13:36;Tipujici_45;30+;3;Hirt;Hirt Jan
+2026-08-21;13:36;Tipujici_43;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;13:36;Tipujici_43;GC;2;Gall;Gall Felix
+2026-08-21;13:36;Tipujici_43;GC;3;Skjelmose;Skjelmose Mattias
+2026-08-21;13:36;Tipujici_43;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-21;13:36;Tipujici_43;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-21;13:36;Tipujici_43;Mladik;1;Onley;Onley Oscar
+2026-08-21;13:36;Tipujici_43;Tym;1;UAE;UAE
+2026-08-21;13:36;Tipujici_43;30+;1;Fortunato;Fortunato Lorenzo
+2026-08-21;13:36;Tipujici_43;30+;2;Carrapaz;Carapaz Richard
+2026-08-21;13:36;Tipujici_43;30+;3;Roglic;Roglic Primoz
+2026-08-21;13:36;Tipujici_43;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-21;17:14;Tipujici_46;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;17:14;Tipujici_46;GC;2;Gall;Gall Felix
+2026-08-21;17:14;Tipujici_46;GC;3;Onley;Onley Oscar
+2026-08-21;17:14;Tipujici_46;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-21;17:14;Tipujici_46;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-21;17:14;Tipujici_46;Mladik;1;Onley;Onley Oscar
+2026-08-21;17:14;Tipujici_46;Tym;1;UAE;UAE
+2026-08-21;17:14;Tipujici_46;30+;1;Carapaz;Carapaz Richard
+2026-08-21;17:14;Tipujici_46;30+;2;Roglic;Roglic Primoz
+2026-08-21;17:14;Tipujici_46;30+;3;Mas;Mas Enric
+2026-08-21;17:14;Tipujici_46;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-21;17:33;Tipujici_31;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;17:33;Tipujici_31;GC;2;Skjelmose;Skjelmose Mattias
+2026-08-21;17:33;Tipujici_31;GC;3;Gall;Gall Felix
+2026-08-21;17:33;Tipujici_31;Vrchar;1;Carapaz;Carapaz Richard
+2026-08-21;17:33;Tipujici_31;Sprinter;1;Van Aert;van Aert Wout
+2026-08-21;17:33;Tipujici_31;Mladik;1;Riccitello;Riccitello Matthew
+2026-08-21;17:33;Tipujici_31;Tym;1;Red Bull;Red Bull
+2026-08-21;17:33;Tipujici_31;30+;1;Carapaz;Carapaz Richard
+2026-08-21;17:33;Tipujici_31;30+;2;Roglic;Roglic Primoz
+2026-08-21;17:33;Tipujici_31;30+;3;Kuss;Kuss Sepp
+2026-08-21;17:33;Tipujici_31;Penas Blancas;1;Carapaz;Carapaz Richard
+2026-08-21;18:54;Tipujici_28;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;18:54;Tipujici_28;GC;2;Gall;Gall Felix
+2026-08-21;18:54;Tipujici_28;GC;3;Carapaz;Carapaz Richard
+2026-08-21;18:54;Tipujici_28;Vrchar;1;KOM: Buitrago;Buitrago Santiago
+2026-08-21;18:54;Tipujici_28;Sprinter;1;Body: Van Aert;van Aert Wout
+2026-08-21;18:54;Tipujici_28;Mladik;1;Biely: Riccitello;Riccitello Matthew
+2026-08-21;18:54;Tipujici_28;Tym;1;UAE;UAE
+2026-08-21;18:54;Tipujici_28;30+;1;Carapaz;Carapaz Richard
+2026-08-21;18:54;Tipujici_28;30+;2;Roglic;Roglic Primoz
+2026-08-21;18:54;Tipujici_28;30+;3;Landa;Landa Mikel
+2026-08-21;18:54;Tipujici_28;Penas Blancas;1;Tejada;Tejada Harold
+2026-08-21;19:15;Tipujici_53;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;19:15;Tipujici_53;GC;2;Gall;Gall Felix
+2026-08-21;19:15;Tipujici_53;GC;3;Skjelmose;Skjelmose Mattias
+2026-08-21;19:15;Tipujici_53;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-21;19:15;Tipujici_53;Sprinter;1;Van Aert;van Aert Wout
+2026-08-21;19:15;Tipujici_53;Mladik;1;Onley;Onley Oscar
+2026-08-21;19:15;Tipujici_53;Tym;1;UAE;UAE
+2026-08-21;19:15;Tipujici_53;30+;1;Roglic;Roglic Primoz
+2026-08-21;19:15;Tipujici_53;30+;2;Carapaz;Carapaz Richard
+2026-08-21;19:15;Tipujici_53;30+;3;Mas;Mas Enric
+2026-08-21;19:15;Tipujici_53;Penas Blancas;1;Carapaz;Carapaz Richard
+2026-08-21;19:30;Tipujici_42;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;19:30;Tipujici_42;GC;2;Onley;Onley Oscar
+2026-08-21;19:30;Tipujici_42;GC;3;Gall;Gall Felix
+2026-08-21;19:30;Tipujici_42;Vrchar;1;KOM: Carapaz;Carapaz Richard
+2026-08-21;19:30;Tipujici_42;Sprinter;1;Body: Pedersen;Pedersen Mads
+2026-08-21;19:30;Tipujici_42;Mladik;1;Biely: Onley;Onley Oscar
+2026-08-21;19:30;Tipujici_42;Tym;1;UAE;UAE
+2026-08-21;19:30;Tipujici_42;30+;1;Kuss;Kuss Sepp
+2026-08-21;19:30;Tipujici_42;30+;2;Bilbao;Bilbao Pello
+2026-08-21;19:30;Tipujici_42;30+;3;Hirt;Hirt Jan
+2026-08-21;19:30;Tipujici_42;Penas Blancas;1;Torres;Torres Pablo
+2026-08-21;19:31;Tipujici_39;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;19:31;Tipujici_39;GC;2;Gall;Gall Felix
+2026-08-21;19:31;Tipujici_39;GC;3;Onley;Onley Oscar
+2026-08-21;19:31;Tipujici_39;Vrchar;1;KOM: Pogacar;Pogacar Tadej
+2026-08-21;19:31;Tipujici_39;Sprinter;1;Body: Pedersen;Pedersen Mads
+2026-08-21;19:31;Tipujici_39;Mladik;1;Biely: Onley;Onley Oscar
+2026-08-21;19:31;Tipujici_39;Tym;1;UAE;UAE
+2026-08-21;19:31;Tipujici_39;30+;1;Carapaz;Carapaz Richard
+2026-08-21;19:31;Tipujici_39;30+;2;Laporte;Laporte Christophe
+2026-08-21;19:31;Tipujici_39;30+;3;Hirt;Hirt Jan
+2026-08-21;19:31;Tipujici_39;Penas Blancas;1;Penis Blancas: Pogacar;Pogacar Tadej
+2026-08-21;22:07;Tipujici_60;GC;1;Pogacar;Pogacar Tadej
+2026-08-21;22:07;Tipujici_60;GC;2;Carapaz;Carapaz Richard
+2026-08-21;22:07;Tipujici_60;GC;3;Gall;Gall Felix
+2026-08-21;22:07;Tipujici_60;Vrchar;1;vrchar: Pogacat;Pogacar Tadej
+2026-08-21;22:07;Tipujici_60;Sprinter;1;sprinter: Wout;van Aert Wout
+2026-08-21;22:07;Tipujici_60;Mladik;1;biely: Onley;Onley Oscar
+2026-08-21;22:07;Tipujici_60;Tym;1;UAE;UAE
+2026-08-21;22:07;Tipujici_60;30+;1;Carapaz;Carapaz Richard
+2026-08-21;22:07;Tipujici_60;30+;2;Kuss;Kuss Sepp
+2026-08-21;22:07;Tipujici_60;30+;3;Roglic;Roglic Primoz
+2026-08-21;22:07;Tipujici_60;Penas Blancas;1;Penaz Blancas: Pogacat;Pogacar Tadej
+2026-08-22;05:19;Tipujici_21;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;05:19;Tipujici_21;GC;2;Rodriguez;Rodriguez Cristian
+2026-08-22;05:19;Tipujici_21;GC;3;Almeida;Almeida Joao
+2026-08-22;05:19;Tipujici_21;Vrchar;1;Hory: Carapaz;Carapaz Richard
+2026-08-22;05:19;Tipujici_21;Sprinter;1;Body: Pedersen;Pedersen Mads
+2026-08-22;05:19;Tipujici_21;Mladik;1;Mlady: Rodriguez;Rodriguez Cristian
+2026-08-22;05:19;Tipujici_21;Tym;1;UAE;UAE
+2026-08-22;05:19;Tipujici_21;30+;1;Roglic;Roglic Primoz
+2026-08-22;05:19;Tipujici_21;30+;2;Mas;Mas Enric
+2026-08-22;05:19;Tipujici_21;30+;3;Carapaz;Carapaz Richard
+2026-08-22;05:19;Tipujici_21;Penas Blancas;1;Richard Carapaz;Carapaz Richard
+2026-08-22;05:34;Tipujici_40;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;05:34;Tipujici_40;GC;2;Carapaz;Carapaz Richard
+2026-08-22;05:34;Tipujici_40;GC;3;Almeida;Almeida Joao
+2026-08-22;05:34;Tipujici_40;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-22;05:34;Tipujici_40;Sprinter;1;Van Aert;van Aert Wout
+2026-08-22;05:34;Tipujici_40;Mladik;1;Onley;Onley Oscar
+2026-08-22;05:34;Tipujici_40;Tym;1;UAE;UAE
+2026-08-22;05:34;Tipujici_40;30+;1;Carapaz;Carapaz Richard
+2026-08-22;05:34;Tipujici_40;30+;2;Roglic;Roglic Primoz
+2026-08-22;05:34;Tipujici_40;30+;3;Mas;Mas Enric
+2026-08-22;05:34;Tipujici_40;Penas Blancas;1;Carapaz;Carapaz Richard
+2026-08-22;06:12;Tipujici_36;GC;1;T. Pogacar;Pogacar Tadej
+2026-08-22;06:12;Tipujici_36;GC;2;Skjelmose;Skjelmose Mattias
+2026-08-22;06:12;Tipujici_36;GC;3;Gall;Gall Felix
+2026-08-22;06:12;Tipujici_36;Vrchar;1;Onley;Onley Oscar
+2026-08-22;06:12;Tipujici_36;Sprinter;1;Pogacar;Pogacar Tadej
+2026-08-22;06:12;Tipujici_36;Mladik;1;Nordhagen;Nordhagen Jorgen
+2026-08-22;06:12;Tipujici_36;Tym;1;UAE;UAE
+2026-08-22;06:12;Tipujici_36;30+;1;S. Kuss;Kuss Sepp
+2026-08-22;06:12;Tipujici_36;30+;2;Roglic;Roglic Primoz
+2026-08-22;06:12;Tipujici_36;30+;3;Carapaz;Carapaz Richard
+2026-08-22;06:12;Tipujici_36;Penas Blancas;1;T. Pogacar;Pogacar Tadej
+2026-08-22;06:56;Tipujici_22;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;06:56;Tipujici_22;GC;2;Carapaz;Carapaz Richard
+2026-08-22;06:56;Tipujici_22;GC;3;Onley;Onley Oscar
+2026-08-22;06:56;Tipujici_22;Vrchar;1;Van Aert;van Aert Wout
+2026-08-22;06:56;Tipujici_22;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-22;06:56;Tipujici_22;Mladik;1;Onley;Onley Oscar
+2026-08-22;06:56;Tipujici_22;Tym;1;Visma;Visma
+2026-08-22;06:56;Tipujici_22;30+;1;Carapaz;Carapaz Richard
+2026-08-22;06:56;Tipujici_22;30+;2;Roglic;Roglic Primoz
+2026-08-22;06:56;Tipujici_22;30+;3;Kuss;Kuss Sepp
+2026-08-22;07:34;Tipujici_54;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;07:34;Tipujici_54;GC;2;Gall;Gall Felix
+2026-08-22;07:34;Tipujici_54;GC;3;Skjelmose;Skjelmose Mattias
+2026-08-22;07:34;Tipujici_54;Vrchar;1;Paret-Paintre;Paret-Peintre Valentin
+2026-08-22;07:34;Tipujici_54;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-22;07:34;Tipujici_54;Mladik;1;Onley;Onley Oscar
+2026-08-22;07:34;Tipujici_54;Tym;1;UAE;UAE
+2026-08-22;07:34;Tipujici_54;30+;1;Skjelmose;Skjelmose Mattias
+2026-08-22;07:34;Tipujici_54;30+;2;Carapaz;Carapaz Richard
+2026-08-22;07:34;Tipujici_54;30+;3;Landa;Landa Mikel
+2026-08-22;07:34;Tipujici_54;Penas Blancas;1;Kuss;Kuss Sepp
+2026-08-22;07:45;Tipujici_17;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;07:45;Tipujici_17;GC;2;Carapaz;Carapaz Richard
+2026-08-22;07:45;Tipujici_17;GC;3;Skjemose;Skjelmose Mattias
+2026-08-22;07:45;Tipujici_17;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-22;07:45;Tipujici_17;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-22;07:45;Tipujici_17;Mladik;1;Onley;Onley Oscar
+2026-08-22;07:45;Tipujici_17;Tym;1;UAE;UAE
+2026-08-22;07:45;Tipujici_17;30+;1;Carapaz;Carapaz Richard
+2026-08-22;07:45;Tipujici_17;30+;2;Mas;Mas Enric
+2026-08-22;07:45;Tipujici_17;30+;3;Vine;Vine Jay
+2026-08-22;08:42;Tipujici_07;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;08:42;Tipujici_07;GC;2;Gall;Gall Felix
+2026-08-22;08:42;Tipujici_07;GC;3;Kuss;Kuss Sepp
+2026-08-22;08:42;Tipujici_07;Vrchar;1;KOM: Buitrago;Buitrago Santiago
+2026-08-22;08:42;Tipujici_07;Sprinter;1;Body: Pedersen;Pedersen Mads
+2026-08-22;08:42;Tipujici_07;Mladik;1;Biely: Onley;Onley Oscar
+2026-08-22;08:42;Tipujici_07;Tym;1;Decathlon;Decathlon
+2026-08-22;08:42;Tipujici_07;30+;1;Kuss;Kuss Sepp
+2026-08-22;08:42;Tipujici_07;30+;2;Carapaz;Carapaz Richard
+2026-08-22;08:42;Tipujici_07;30+;3;Mas;Mas Enric
+2026-08-22;08:42;Tipujici_07;Penas Blancas;1;Pogi;Pogacar Tadej
+2026-08-22;08:53;Tipujici_24;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;08:53;Tipujici_24;GC;2;Gall;Gall Felix
+2026-08-22;08:53;Tipujici_24;GC;3;Skjelmose;Skjelmose Mattias
+2026-08-22;08:53;Tipujici_24;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-22;08:53;Tipujici_24;Sprinter;1;WVA;van Aert Wout
+2026-08-22;08:53;Tipujici_24;Mladik;1;Onley;Onley Oscar
+2026-08-22;08:53;Tipujici_24;Tym;1;UAE;UAE
+2026-08-22;08:53;Tipujici_24;30+;1;Carapaz;Carapaz Richard
+2026-08-22;08:53;Tipujici_24;30+;2;Kuss;Kuss Sepp
+2026-08-22;08:53;Tipujici_24;30+;3;Roglic;Roglic Primoz
+2026-08-22;08:53;Tipujici_24;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-22;08:54;Tipujici_19;GC;1;Pogi;Pogacar Tadej
+2026-08-22;08:54;Tipujici_19;GC;2;Skjelmose;Skjelmose Mattias
+2026-08-22;08:54;Tipujici_19;GC;3;Gall;Gall Felix
+2026-08-22;08:54;Tipujici_19;Vrchar;1;Bodky: T.H Johannesem;Johannessen Tobias
+2026-08-22;08:54;Tipujici_19;Sprinter;1;Body: WVA;van Aert Wout
+2026-08-22;08:54;Tipujici_19;Mladik;1;Bily: Onley;Onley Oscar
+2026-08-22;08:54;Tipujici_19;Tym;1;UAE;UAE
+2026-08-22;08:54;Tipujici_19;30+;1;Carapaz;Carapaz Richard
+2026-08-22;08:54;Tipujici_19;30+;2;Roglic;Roglic Primoz
+2026-08-22;08:54;Tipujici_19;30+;3;Mas;Mas Enric
+2026-08-22;08:54;Tipujici_19;Penas Blancas;1;Pogi;Pogacar Tadej
+2026-08-22;08:55;Tipujici_34;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;08:55;Tipujici_34;GC;2;Gall;Gall Felix
+2026-08-22;08:55;Tipujici_34;GC;3;Riccitello;Riccitello Matthew
+2026-08-22;08:55;Tipujici_34;Vrchar;1;Vrchar: Pogacar;Pogacar Tadej
+2026-08-22;08:55;Tipujici_34;Sprinter;1;Body: WvA;van Aert Wout
+2026-08-22;08:55;Tipujici_34;Mladik;1;Mladik: Riccitello;Riccitello Matthew
+2026-08-22;08:55;Tipujici_34;Tym;1;Decathlon;Decathlon
+2026-08-22;08:55;Tipujici_34;30+;1;Carapaz;Carapaz Richard
+2026-08-22;08:55;Tipujici_34;30+;2;Bilbao;Bilbao Pello
+2026-08-22;08:55;Tipujici_34;30+;3;Roglic;Roglic Primoz
+2026-08-22;08:55;Tipujici_34;Penas Blancas;1;Penas Blanca: Carapaz;Carapaz Richard
+2026-08-22;08:58;Tipujici_14;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;08:58;Tipujici_14;GC;2;Carapaz;Carapaz Richard
+2026-08-22;08:58;Tipujici_14;GC;3;Gall;Gall Felix
+2026-08-22;08:58;Tipujici_14;Vrchar;1;Vrchar: Pogacar;Pogacar Tadej
+2026-08-22;08:58;Tipujici_14;Sprinter;1;Body: WvA;van Aert Wout
+2026-08-22;08:58;Tipujici_14;Mladik;1;Mladik: Riccitello;Riccitello Matthew
+2026-08-22;08:58;Tipujici_14;Tym;1;UAE;UAE
+2026-08-22;08:58;Tipujici_14;30+;1;Carapaz;Carapaz Richard
+2026-08-22;08:58;Tipujici_14;30+;2;Kuss;Kuss Sepp
+2026-08-22;08:58;Tipujici_14;30+;3;Roglic;Roglic Primoz
+2026-08-22;08:58;Tipujici_14;Penas Blancas;1;Penas Blanca: Pogacar;Pogacar Tadej
+2026-08-22;09:29;Tipujici_05;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;09:29;Tipujici_05;GC;2;Carapaz;Carapaz Richard
+2026-08-22;09:29;Tipujici_05;GC;3;Gall;Gall Felix
+2026-08-22;09:29;Tipujici_05;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-22;09:29;Tipujici_05;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-22;09:29;Tipujici_05;Mladik;1;Onley;Onley Oscar
+2026-08-22;09:29;Tipujici_05;Tym;1;Bora;Red Bull
+2026-08-22;09:29;Tipujici_05;30+;1;Carapaz;Carapaz Richard
+2026-08-22;09:29;Tipujici_05;30+;2;Kuss;Kuss Sepp
+2026-08-22;09:29;Tipujici_05;30+;3;Landa;Landa Mikel
+2026-08-22;09:29;Tipujici_05;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-22;09:43;Tipujici_51;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;09:43;Tipujici_51;GC;2;Gall;Gall Felix
+2026-08-22;09:43;Tipujici_51;GC;3;Carapaz;Carapaz Richard
+2026-08-22;09:43;Tipujici_51;Vrchar;1;Vrchar: Carapaz;Carapaz Richard
+2026-08-22;09:43;Tipujici_51;Sprinter;1;Body: Pedersen;Pedersen Mads
+2026-08-22;09:43;Tipujici_51;Mladik;1;Mladik: Onley;Onley Oscar
+2026-08-22;09:43;Tipujici_51;Tym;1;UAE;UAE
+2026-08-22;09:43;Tipujici_51;30+;1;Carapaz;Carapaz Richard
+2026-08-22;09:43;Tipujici_51;30+;2;Mas;Mas Enric
+2026-08-22;09:43;Tipujici_51;30+;3;Aert;van Aert Wout
+2026-08-22;09:43;Tipujici_51;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-22;09:53;Tipujici_48;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;09:53;Tipujici_48;GC;2;Gall;Gall Felix
+2026-08-22;09:53;Tipujici_48;GC;3;Carapaz;Carapaz Richard
+2026-08-22;09:53;Tipujici_48;Vrchar;1;Carapaz;Carapaz Richard
+2026-08-22;09:53;Tipujici_48;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-22;09:53;Tipujici_48;Mladik;1;Onley;Onley Oscar
+2026-08-22;09:53;Tipujici_48;Tym;1;UAE;UAE
+2026-08-22;09:53;Tipujici_48;30+;1;Carapaz;Carapaz Richard
+2026-08-22;09:53;Tipujici_48;30+;2;Kuss;Kuss Sepp
+2026-08-22;09:53;Tipujici_48;30+;3;Roglic;Roglic Primoz
+2026-08-22;09:53;Tipujici_48;Penas Blancas;1;Kuss;Kuss Sepp
+2026-08-22;09:58;Tipujici_01;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;09:58;Tipujici_01;GC;2;Gall;Gall Felix
+2026-08-22;09:58;Tipujici_01;GC;3;Onley;Onley Oscar
+2026-08-22;09:58;Tipujici_01;Vrchar;1;Vrchar: Carapaz;Carapaz Richard
+2026-08-22;09:58;Tipujici_01;Sprinter;1;Body: Pedersen;Pedersen Mads
+2026-08-22;09:58;Tipujici_01;Mladik;1;Mladik: Onley;Onley Oscar
+2026-08-22;09:58;Tipujici_01;Tym;1;UAE;UAE
+2026-08-22;09:58;Tipujici_01;30+;1;Carapaz;Carapaz Richard
+2026-08-22;09:58;Tipujici_01;30+;2;Roglic;Roglic Primoz
+2026-08-22;09:58;Tipujici_01;30+;3;Kuss;Kuss Sepp
+2026-08-22;09:58;Tipujici_01;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-22;10:28;Tipujici_33;GC;1;Tadej Pogacar;Pogacar Tadej
+2026-08-22;10:28;Tipujici_33;GC;2;Felix Gall;Gall Felix
+2026-08-22;10:28;Tipujici_33;GC;3;Oscar Onley;Onley Oscar
+2026-08-22;10:28;Tipujici_33;Vrchar;1;V. Paret-Peintre;Paret-Peintre Valentin
+2026-08-22;10:28;Tipujici_33;Sprinter;1;Matthew Brennan;Brennan Matthew
+2026-08-22;10:28;Tipujici_33;Mladik;1;Oscar Onley;Onley Oscar
+2026-08-22;10:28;Tipujici_33;Tym;1;Decathlon CMA CGM;Decathlon
+2026-08-22;10:28;Tipujici_33;30+;1;Carapaz;Carapaz Richard
+2026-08-22;10:28;Tipujici_33;30+;2;Mas;Mas Enric
+2026-08-22;10:28;Tipujici_33;30+;3;Kuss;Kuss Sepp
+2026-08-22;10:28;Tipujici_33;Penas Blancas;1;Riccitello;Riccitello Matthew
+2026-08-22;10:30;Tipujici_08;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;10:30;Tipujici_08;GC;2;Gall;Gall Felix
+2026-08-22;10:30;Tipujici_08;GC;3;Skjelmose;Skjelmose Mattias
+2026-08-22;10:30;Tipujici_08;Vrchar;1;Vrchar Carapaz;Carapaz Richard
+2026-08-22;10:30;Tipujici_08;Sprinter;1;Bodovacka Pedersen;Pedersen Mads
+2026-08-22;10:30;Tipujici_08;Mladik;1;Mladik Riccitello;Riccitello Matthew
+2026-08-22;10:30;Tipujici_08;Tym;1;UAE;UAE
+2026-08-22;10:30;Tipujici_08;30+;1;Mas;Mas Enric
+2026-08-22;10:30;Tipujici_08;30+;2;Carapaz;Carapaz Richard
+2026-08-22;10:30;Tipujici_08;30+;3;Kuss;Kuss Sepp
+2026-08-22;10:30;Tipujici_08;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-22;10:52;Tipujici_47;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;10:52;Tipujici_47;GC;2;Onley;Onley Oscar
+2026-08-22;10:52;Tipujici_47;GC;3;Carapaz;Carapaz Richard
+2026-08-22;10:52;Tipujici_47;Vrchar;1;Vrchar: Fortunato;Fortunato Lorenzo
+2026-08-22;10:52;Tipujici_47;Sprinter;1;Bodovacka: Pedersen;Pedersen Mads
+2026-08-22;10:52;Tipujici_47;Mladik;1;Mladik: Onley;Onley Oscar
+2026-08-22;10:52;Tipujici_47;Tym;1;UAE;UAE
+2026-08-22;10:52;Tipujici_47;30+;1;Carapaz;Carapaz Richard
+2026-08-22;10:52;Tipujici_47;30+;2;Kuss;Kuss Sepp
+2026-08-22;10:52;Tipujici_47;30+;3;Mas;Mas Enric
+2026-08-22;10:52;Tipujici_47;Penas Blancas;1;Almeida;Almeida Joao
+2026-08-22;10:58;Tipujici_32;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;10:58;Tipujici_32;GC;2;Gall;Gall Felix
+2026-08-22;10:58;Tipujici_32;GC;3;Carapaz;Carapaz Richard
+2026-08-22;10:58;Tipujici_32;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-22;10:58;Tipujici_32;Sprinter;1;Pedersen;Pedersen Mads
+2026-08-22;10:58;Tipujici_32;Mladik;1;Onley;Onley Oscar
+2026-08-22;10:58;Tipujici_32;Tym;1;UAE;UAE
+2026-08-22;10:58;Tipujici_32;30+;1;Carapaz;Carapaz Richard
+2026-08-22;10:58;Tipujici_32;30+;2;Roglic;Roglic Primoz
+2026-08-22;10:58;Tipujici_32;30+;3;Mas;Mas Enric
+2026-08-22;10:58;Tipujici_32;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-22;11:01;Tipujici_61;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;11:01;Tipujici_61;GC;2;Gall;Gall Felix
+2026-08-22;11:01;Tipujici_61;GC;3;Onley;Onley Oscar
+2026-08-22;11:01;Tipujici_61;Vrchar;1;Vrchar: Fortunato;Fortunato Lorenzo
+2026-08-22;11:01;Tipujici_61;Sprinter;1;Body: Van Aert;van Aert Wout
+2026-08-22;11:01;Tipujici_61;Mladik;1;Mladik: Onley;Onley Oscar
+2026-08-22;11:01;Tipujici_61;Tym;1;UAE;UAE
+2026-08-22;11:01;Tipujici_61;30+;1;Roglic;Roglic Primoz
+2026-08-22;11:01;Tipujici_61;30+;2;Carapaz;Carapaz Richard
+2026-08-22;11:01;Tipujici_61;30+;3;Pello Bilbao;Bilbao Pello
+2026-08-22;11:01;Tipujici_61;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-22;11:21;Tipujici_10;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;11:21;Tipujici_10;GC;2;Mas;Mas Enric
+2026-08-22;11:21;Tipujici_10;GC;3;Gall;Gall Felix
+2026-08-22;11:21;Tipujici_10;Vrchar;1;Kopce: Pogacar;Pogacar Tadej
+2026-08-22;11:21;Tipujici_10;Sprinter;1;Body: WvA;van Aert Wout
+2026-08-22;11:21;Tipujici_10;Mladik;1;Mladas: Riccitello;Riccitello Matthew
+2026-08-22;11:21;Tipujici_10;Tym;1;UAE;UAE
+2026-08-22;11:21;Tipujici_10;30+;1;Mas;Mas Enric
+2026-08-22;11:21;Tipujici_10;30+;2;Carapaz;Carapaz Richard
+2026-08-22;11:21;Tipujici_10;30+;3;Roglic;Roglic Primoz
+2026-08-22;11:21;Tipujici_10;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-22;12:29;Tipujici_16;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;12:29;Tipujici_16;GC;2;Carapaz;Carapaz Richard
+2026-08-22;12:29;Tipujici_16;GC;3;Gall;Gall Felix
+2026-08-22;12:29;Tipujici_16;Vrchar;1;Pogacar;Pogacar Tadej
+2026-08-22;12:29;Tipujici_16;Sprinter;1;wwa;van Aert Wout
+2026-08-22;12:29;Tipujici_16;Mladik;1;Onley;Onley Oscar
+2026-08-22;12:29;Tipujici_16;Tym;1;uae;UAE
+2026-08-22;12:29;Tipujici_16;30+;1;Carapaz;Carapaz Richard
+2026-08-22;12:29;Tipujici_16;30+;2;Kuss;Kuss Sepp
+2026-08-22;12:29;Tipujici_16;30+;3;Mas;Mas Enric
+2026-08-22;12:29;Tipujici_16;Penas Blancas;1;PB: Pogacar;Pogacar Tadej
+2026-08-22;12:31;Tipujici_49;GC;1;Pogi;Pogacar Tadej
+2026-08-22;12:31;Tipujici_49;GC;2;Gall;Gall Felix
+2026-08-22;12:31;Tipujici_49;GC;3;Onley;Onley Oscar
+2026-08-22;12:31;Tipujici_49;Vrchar;1;Vrchar: Pogi;Pogacar Tadej
+2026-08-22;12:31;Tipujici_49;Sprinter;1;Body: Wout;van Aert Wout
+2026-08-22;12:31;Tipujici_49;Mladik;1;Mladik: Onley;Onley Oscar
+2026-08-22;12:31;Tipujici_49;Tym;1;UAE;UAE
+2026-08-22;12:31;Tipujici_49;30+;1;Mas;Mas Enric
+2026-08-22;12:31;Tipujici_49;30+;2;Carapaz;Carapaz Richard
+2026-08-22;12:31;Tipujici_49;30+;3;Roglic;Roglic Primoz
+2026-08-22;12:31;Tipujici_49;Penas Blancas;1;Pogi;Pogacar Tadej
+2026-08-22;14:08;Tipujici_29;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;14:08;Tipujici_29;GC;2;Onley;Onley Oscar
+2026-08-22;14:08;Tipujici_29;GC;3;Gall;Gall Felix
+2026-08-22;14:08;Tipujici_29;Vrchar;1;Vrchar: Johannessen;Johannessen Tobias
+2026-08-22;14:08;Tipujici_29;Sprinter;1;Body: Van Aert;van Aert Wout
+2026-08-22;14:08;Tipujici_29;Mladik;1;Mladik: Onley;Onley Oscar
+2026-08-22;14:08;Tipujici_29;Tym;1;UAE;UAE
+2026-08-22;14:08;Tipujici_29;30+;1;Kuss;Kuss Sepp
+2026-08-22;14:08;Tipujici_29;30+;2;Carapaz;Carapaz Richard
+2026-08-22;14:08;Tipujici_29;30+;3;Roglic;Roglic Primoz
+2026-08-22;14:08;Tipujici_29;Penas Blancas;1;Pogacar;Pogacar Tadej
+2026-08-22;14:14;Tipujici_37;GC;1;Pogacar;Pogacar Tadej
+2026-08-22;14:14;Tipujici_37;GC;2;Onley;Onley Oscar
+2026-08-22;14:14;Tipujici_37;GC;3;Gall;Gall Felix
+2026-08-22;14:14;Tipujici_37;Vrchar;1;Vrchar: Kuss;Kuss Sepp
+2026-08-22;14:14;Tipujici_37;Sprinter;1;Body: Brennan;Brennan Matthew
+2026-08-22;14:14;Tipujici_37;Mladik;1;Mladik: Onley;Onley Oscar
+2026-08-22;14:14;Tipujici_37;Tym;1;UAE;UAE
+2026-08-22;14:14;Tipujici_37;30+;1;Roglic;Roglic Primoz
+2026-08-22;14:14;Tipujici_37;30+;2;Carapaz;Carapaz Richard
+2026-08-22;14:14;Tipujici_37;30+;3;Hirt;Hirt Jan
+2026-08-22;14:14;Tipujici_37;Penas Blancas;1;Carapaz;Carapaz Richard
