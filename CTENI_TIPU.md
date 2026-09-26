@@ -24,6 +24,21 @@ obsahují jen diskusi o závodech.
 Discord zprávy **virtualizuje**: starší se při rolování odpojují z DOM.
 Sbírej průběžně po dávkách, ne až na konci.
 
+## Při stahování hlídej značku „(upraveno)"
+
+Editovaný tip **neplatí** (viz pravidla níže). Značku je proto nutné
+zachytit hned při stahování a u tipu si ji poznamenat — když se zahodí
+jako šum, později se nedá dohledat jinak než opakovaným čtením kanálu.
+
+Discord ji vykresluje jako samostatný element vedle času:
+
+```js
+const editovano = !!li.querySelector('[class*="edited"]');
+```
+
+Tipy s touto značkou se do `tipy.csv` nezapisují a jejich autoři se
+**vypíšou uživateli**, ať ví, koho se vyřazení týká.
+
 ## Emoji se musí číst z DOM
 
 `get_page_text` emoji zahazuje, protože Discord je vykresluje jako `<img>`.
