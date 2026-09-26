@@ -26,7 +26,7 @@ CTENI_TIPU.md       jak číst tipy z Discordu
 |---|---|---|---|
 | MS 2026 | 28 tipujících | obě časovky | průběžné pořadí |
 | Giro 2026 | 29 tipujících | kompletní | ano |
-| Vuelta 2026 | 52 tipujících | chybí | ne |
+| Vuelta 2026 | 52 tipujících | kompletní | ano |
 | Tour 2026 | zatím nepřepsáno | kompletní | ne |
 
 Jarní klasiky 2026 (série devíti závodů) jsou zmapované, ale zatím
